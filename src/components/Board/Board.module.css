@@ -1,0 +1,38 @@
+.board {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.groupsContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 20px; /* Adjust gap between columns */
+}
+
+.group {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    width: 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.column-title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.done-section, .canceled-section {
+    margin-top: 0;
+    order: -1;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
